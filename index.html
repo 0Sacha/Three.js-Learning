@@ -1,14 +1,24 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio 3D</title>
-    <link rel="stylesheet" href="css/style.css">
+    <script type="importmap">
+    {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"
+        }
+    }
+</script>
+<link rel="stylesheet" href="./css/style.css">
+<script type="module" src="./js/main.js"></script>
+    <title>Document</title>
 </head>
-<body>
-    <canvas class="webgl"></canvas>
 
-    <script type="module" src="js/main.js"></script>
+<body>
+<canvas id="webgl"></canvas>
+
 </body>
+
 </html>
